@@ -1,10 +1,55 @@
 .btnEj{
 background-color: rgb(208, 208, 22);
-margin: 3px;
-border: 1px solid black;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-padding: 3px;
+margin: 5px 5px;
+border:none;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+cursor: pointer;
+}
 
+.btnEj:hover{
+    box-shadow: none;
+background-color: rgb(231, 231, 24);
 
 
 }
+.btnMenu{
+background-color: rgb(231, 231, 24);
+border:none;
+text-align: center;
+justify-content: center;
+margin-left: 123px;
+padding: 10px;
+border:none;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+cursor: pointer;
+
+}
+.pagination{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.previous{
+    margin: 10px;
+
+    border-radius: 10px;
+    background-color: rgb(208, 208, 22);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+cursor: pointer;
+}
+
+.next{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(208, 208, 22);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+cursor: pointer;
+
+}
+

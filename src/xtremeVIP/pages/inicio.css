@@ -1,0 +1,31 @@
+
+
+.inicio{
+    min-height: calc(100vh - 100px); /* Ajusta el valor 100px según tus necesidades */
+margin: 10px;
+}
+
+
+.top,.bottom{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.cuadro{
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    height: 150px;
+    width: 200px; /* Ajusta el valor según tus necesidades */
+    padding: 8px;
+    margin: 15px 10px;
+    background-color: rgb(208, 208, 22) ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+font-weight: bold;
+font-size: 15px;
+}
+
+

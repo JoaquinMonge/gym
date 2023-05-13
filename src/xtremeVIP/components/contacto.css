@@ -1,0 +1,16 @@
+.contacto{
+    min-height: calc(100vh - 100px); /* Ajusta el valor 100px según tus necesidades */
+
+    margin: 30px 30px ;
+}
+
+textarea{
+    border: none;
+}
+
+p{
+    text-decoration: none;
+    color:  rgb(208, 208, 22);
+    cursor: pointer;
+}
+
