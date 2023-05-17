@@ -15,6 +15,7 @@ import Nutricion from "./xtremeVIP/pages/Nutricion";
 import Calendario from "./xtremeVIP/pages/Calendario";
 import Pagos from "./xtremeVIP/pages/Pagos";
 import Suplementos from "./xtremeVIP/pages/Suplementos";
+import SignUp from "./auth/SignUp";
 
 function App() {
   const { isAuthenticated } = useContext(UserContext);
@@ -43,6 +44,7 @@ function App() {
         ) : (
           <>
             <Route path="/acerca" element={<AcercaDe />} />
+            <Route path="/signup" element={<SignUp />} />
 
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/*" element={<Navigate to="/" />} />
