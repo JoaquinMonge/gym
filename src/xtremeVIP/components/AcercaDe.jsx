@@ -8,7 +8,7 @@ export const AcercaDe = () => {
   const navigate = useNavigate();
 
   const handleMenuClick = () => {
-    navigate("/inicio");
+    navigate("/login");
   };
   return (
     <div className="acercaDE">

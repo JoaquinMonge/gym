@@ -11,6 +11,10 @@ import { Inicio } from "./xtremeVIP/pages/Inicio";
 import { useContext } from "react";
 import UserContext from "./hooks/UserContext";
 import { Rutinas } from "./xtremeVIP/pages/Rutinas";
+import Nutricion from "./xtremeVIP/pages/Nutricion";
+import Calendario from "./xtremeVIP/pages/Calendario";
+import Pagos from "./xtremeVIP/pages/Pagos";
+import Suplementos from "./xtremeVIP/pages/Suplementos";
 
 function App() {
   const { isAuthenticated } = useContext(UserContext);
@@ -31,6 +35,10 @@ function App() {
             <Route path="/acerca" element={<AcercaDe />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/rutinas" element={<Rutinas />} />
+            <Route path="/nutricion" element={<Nutricion />} />
+            <Route path="/calendario" element={<Calendario />} />
+            <Route path="/pagos" element={<Pagos />} />
+            <Route path="/suplementos" element={<Suplementos />} />
           </>
         ) : (
           <>
