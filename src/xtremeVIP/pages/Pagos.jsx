@@ -22,7 +22,7 @@ const Pagos = () => {
 
   return (
     <div className="payment-container">
-      <button className="btnVolver" onClick={handleClickVolver}>
+      <button className="volverPagos" onClick={handleClickVolver}>
         Volver
       </button>
 

@@ -3,6 +3,7 @@
 .inicio{
     min-height: calc(100vh - 100px); /* Ajusta el valor 100px según tus necesidades */
 margin: 10px;
+
 }
 
 
@@ -26,6 +27,7 @@ margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 font-weight: bold;
 font-size: 15px;
+color: black;
 }
 
 

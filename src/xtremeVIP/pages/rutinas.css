@@ -8,6 +8,11 @@
     flex-direction: column;
     align-items: center;
   }
+  .volverRutina{
+    background-color: black;
+    max-width: 40%;
+    margin: 15px;
+  }
   
   .rutina-card {
     border: 1px solid #ccc;

@@ -9,7 +9,7 @@ const Nutricion = () => {
   };
   return (
     <div className="menu-nutricion">
-      <button className="btnVolver" onClick={handleClickVolver}>
+      <button className="volverNutri" onClick={handleClickVolver}>
         Volver
       </button>
 

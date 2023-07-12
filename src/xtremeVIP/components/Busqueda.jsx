@@ -80,38 +80,42 @@ export const Busqueda = () => {
 
   return (
     <div className="body-container">
-      <button
-        className="btnEj"
-        onClick={() => handleButtonClick("chest", "Pecho")}
-      >
-        Pecho
-      </button>
-      <button
-        className="btnEj"
-        onClick={() => handleButtonClick("upper legs", "Piernas")}
-      >
-        Piernas
-      </button>
-      <button
-        className="btnEj"
-        onClick={() => handleButtonClick("upper arms", "Bicep")}
-      >
-        Bicep
-      </button>
-      <button
-        className="btnEj"
-        onClick={() => handleButtonClick("back", "Espalda")}
-      >
-        Espalda
-      </button>
+      <div className="btnContainer">
+        <button
+          className="btnEj"
+          onClick={() => handleButtonClick("chest", "Pecho")}
+        >
+          Pecho
+        </button>
+        <button
+          className="btnEj"
+          onClick={() => handleButtonClick("upper legs", "Piernas")}
+        >
+          Piernas
+        </button>
+        <button
+          className="btnEj"
+          onClick={() => handleButtonClick("upper arms", "Bicep")}
+        >
+          Bicep
+        </button>
+        <button
+          className="btnEj"
+          onClick={() => handleButtonClick("back", "Espalda")}
+        >
+          Espalda
+        </button>
+      </div>
 
       <div className="titulo">
         <h1>{titulo}</h1>
       </div>
 
-      <button className="btnMenu" onClick={handleMenuClick}>
-        Volver al menu
-      </button>
+      <div className="volverContainer">
+        <button className="btnMenu" onClick={handleMenuClick}>
+          Volver al menu
+        </button>
+      </div>
 
       <div className="pagination">
         <button
@@ -119,7 +123,7 @@ export const Busqueda = () => {
           onClick={handlePreviousPage}
           className="previous"
         >
-          Anterior
+          {"<"}
         </button>
         <span className="pagination-info">
           {currentPage} de {Math.ceil(ejercicios.length / resultsPerPage)}
@@ -129,9 +133,9 @@ export const Busqueda = () => {
             currentPage === Math.ceil(ejercicios.length / resultsPerPage)
           }
           onClick={handleNextPage}
-          className="next"
+          className="previous"
         >
-          Siguiente
+          {">"}
         </button>
       </div>
 
@@ -145,6 +149,9 @@ export const Busqueda = () => {
             <div key={ej.id} className="card">
               <img src={ej.gifUrl} alt={ej.name} loading="lazy" />
               <h3>{ej.name}</h3>
+              <h4>{ej.bodyPart}</h4>
+              <h4>{ej.equipment}</h4>
+              <h4>{ej.target}</h4>
               <p>{"Equipo requrido: " + ej.equipment}</p>
             </div>
           ))

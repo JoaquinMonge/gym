@@ -17,5 +17,16 @@
 }
 
 h1, h3, p {
-    margin: 10px 0; /* Ajusta el valor de margen según tus necesidades */
+    margin: 10px 0;
+    color: black;
   }
+
+  .intro{
+color: black;
+}
+
+.volverAcerca{
+    background-color: black;
+    max-width: 40%;
+    margin-top: 15px;
+}

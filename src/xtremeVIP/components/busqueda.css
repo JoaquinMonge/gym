@@ -1,10 +1,20 @@
 .btnEj{
 background-color: rgb(208, 208, 22);
-margin: 5px 5px;
 border:none;
 border-radius: 5px;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 cursor: pointer;
+max-width: 60%;
+margin: 5px;
+}
+
+.btnContainer{
+    display: flex;
+}
+.volverContainer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .btnEj:hover{
@@ -14,42 +24,40 @@ background-color: rgb(231, 231, 24);
 
 }
 .btnMenu{
-background-color: rgb(231, 231, 24);
-border:none;
-text-align: center;
-justify-content: center;
-margin-left: 123px;
-padding: 10px;
+    background-color: rgb(208, 208, 22);
+
 border:none;
 border-radius: 5px;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 cursor: pointer;
+max-width: 40%;
 
 }
 .pagination{
     margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .previous{
-    margin: 10px;
-
     border-radius: 10px;
     background-color: rgb(208, 208, 22);
     border: none;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 cursor: pointer;
+color: black;
+font-weight: bold;
+max-width: 20%;
 }
 
-.next{
-    margin: 10px;
-    border-radius: 10px;
-    background-color: rgb(208, 208, 22);
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-cursor: pointer;
 
+.pagination-info{
+    margin: 20px;
+    font-weight: bold;
 }
 

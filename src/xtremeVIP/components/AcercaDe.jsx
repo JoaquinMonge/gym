@@ -12,11 +12,13 @@ export const AcercaDe = () => {
   };
   return (
     <div className="acercaDE">
-      <button onClick={handleMenuClick}>Volver al menu</button>
+      <button className="volverAcerca" onClick={handleMenuClick}>
+        Volver al menu
+      </button>
       <h1>Alberto Castro Porras </h1>
       <h3>IFBB PRO</h3>
 
-      <p>
+      <p className="intro">
         Graduado de educacion fisica en la Universidad de Costa Rica. Obtuvo la
         PRO Card en el 2022.
       </p>

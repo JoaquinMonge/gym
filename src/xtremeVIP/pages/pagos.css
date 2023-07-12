@@ -32,4 +32,9 @@
     background-color: #ccc;
     cursor: not-allowed;
   }
+
+  .volverPagos{
+    background-color: black;
+    max-width: 40%;
+  }
   

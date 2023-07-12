@@ -82,7 +82,7 @@ const Calendario = () => {
 
   return (
     <div className="weekly-schedule">
-      <button className="btnVolver" onClick={handleClickVolver}>
+      <button className="volverHorario" onClick={handleClickVolver}>
         Volver
       </button>
 

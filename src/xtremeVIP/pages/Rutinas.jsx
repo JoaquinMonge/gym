@@ -22,7 +22,7 @@ export const Rutinas = () => {
     <div className="rutinas-container">
       <h2>Rutinas de Ejercicios</h2>
 
-      <button className="btnVolver" onClick={handleClickVolver}>Volver</button>
+      <button className="volverRutina" onClick={handleClickVolver}>Volver</button>
       <div className="rutina-card">
         <h3>Rutina 1</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

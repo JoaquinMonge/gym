@@ -2,6 +2,10 @@
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
   }
   
   .menu-items {
@@ -23,5 +27,11 @@
   
   .menu-item p {
     margin: 5px 0;
+  }
+
+
+  .volverNutri{
+    background-color: black;
+    max-width: 40%;
   }
   

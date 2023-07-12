@@ -36,7 +36,7 @@ const Body = () => {
           <div key={ejercicio.id} className="card">
             <img src={ejercicio.gifUrl} alt={ejercicio.name} />
             <h3>{ejercicio.name}</h3>
-            <p>{ejercicio.description}</p>
+            <p>{ejercicio.equipment}</p>
           </div>
         ))}
       </div>
